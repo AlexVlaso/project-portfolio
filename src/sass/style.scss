@@ -18,6 +18,9 @@
   height: 3px;
   background-color: $main-color;
   margin-top: 25px;
+  &_center {
+    margin: 25px auto 0 auto;
+  }
 }
 @import "block/promo";
 @import "block/title";
@@ -25,3 +28,4 @@
 @import "block/sidepanel";
 @import "block/menu";
 @import "block/about";
+@import "block/experience";
