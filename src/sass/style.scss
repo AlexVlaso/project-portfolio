@@ -13,8 +13,15 @@
   margin: 0 auto;
   width: 1140px;
 }
+.divider {
+  width: 60px;
+  height: 3px;
+  background-color: $main-color;
+  margin-top: 25px;
+}
 @import "block/promo";
 @import "block/title";
 @import "block/buttons";
 @import "block/sidepanel";
 @import "block/menu";
+@import "block/about";
