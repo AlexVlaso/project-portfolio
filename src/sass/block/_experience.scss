@@ -1,11 +1,11 @@
 .experience {
   padding-top: 120px;
   &__wrapper {
-    padding: 60px 0 0 65px;
+    padding: 60px 65px 0 65px;
     display: grid;
     grid-template-columns: repeat(2, 425px);
     grid-template-rows: 1fr;
-    column-gap: 136px;
+    justify-content: space-between;
   }
   &__block {
     ul {

@@ -37,7 +37,7 @@
   &__ratings {
     margin-top: 120px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 350px);
     grid-template-rows: repeat(2, minmax(70px, auto));
     grid-auto-rows: minmax(70px, auto);
     column-gap: 45px;

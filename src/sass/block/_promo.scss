@@ -8,6 +8,7 @@
     margin-top: 10px;
   }
   &__subtitle {
+    padding-left: 10px;
     position: relative;
     z-index: 2;
     @include before_round;

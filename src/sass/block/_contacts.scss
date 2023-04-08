@@ -20,6 +20,13 @@
     font-size: 14px;
     line-height: 21px;
   }
+  &__photo {
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
   &__social {
     margin-top: 20px;
     &-link {
@@ -35,6 +42,7 @@
     display: grid;
     grid-template-columns: repeat(2, 280px);
     grid-template-rows: 45px 190px 45px;
+    grid-auto-rows: minmax(45px, auto);
     gap: 27px 25px;
   }
   label {
