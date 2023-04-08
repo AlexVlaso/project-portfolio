@@ -1,6 +1,5 @@
 .title {
   font-weight: 700;
-  font-size: 36px;
   line-height: 60px;
   &_fz_16 {
     font-size: 16px;
@@ -9,6 +8,9 @@
   &_fz_48 {
     font-size: 48px;
     line-height: 60px;
+  }
+  &_fz_48 {
+    font-size: 36px;
   }
   &_fz_14 {
     font-size: 14px;
